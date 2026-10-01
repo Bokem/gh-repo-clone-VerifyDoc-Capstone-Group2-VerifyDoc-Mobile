@@ -1,0 +1,50 @@
+# Dependencies 
+node_modules/
+.pnp
+.pnp.js
+
+# Expo 
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native build output 
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+ios/
+android/
+
+# Environment 
+.env
+.env.local
+.env.*.local
+# keep the example committed so teammates know required keys
+!.env.example
+
+# Logs 
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# TypeScript 
+*.tsbuildinfo
+
+# Testing 
+coverage/
+
+# Misc
+.metro-health-check*
+*.tmp
